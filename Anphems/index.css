@@ -1,0 +1,185 @@
+@font-face {
+  font-family: 'BaseMonoItalic';
+  src: url('font/BaseMonoItalic.otf') format('opentype');
+}
+
+
+* {
+    margin: 0;
+}
+html,body {
+    background-color: white;
+    background-size: 2560px;
+
+}
+
+.highlight { color: blue }
+
+.lyricsUSA {
+      position: absolute;
+      left: 40px;
+      top: 30px;
+      font-family: 'BaseMonoItalic';
+      font-size: 50px;
+      color: black;
+      z-index: 99999999;
+  }
+
+  .lyricsUK {
+        position: absolute;
+        right:150px;
+        top: 730px;
+        font-family: 'BaseMonoItalic';
+        font-size: 50px;
+        color: black;
+        z-index: 999999999;
+    }
+
+    .lyricsCANADA {
+          position: absolute;
+          transform: rotate(90deg);
+          left: 1100px;
+          top: 385px;
+          font-family: 'BaseMonoItalic';
+          font-size: 50px;
+          color: black;
+          z-index: 1;
+      }
+
+
+  .UK {
+    content: url("images/ENgland.png");
+    width: 40%;
+    height: auto;
+    margin-top: -40px;
+    margin-left: 390px;
+    -webkit-filter: drop-shadow(5px 5px 5px #222 );
+    filter: drop-shadow(5px 5px 5px #222);
+    z-index: 99999999;
+  }
+
+  .USA {
+    position: absolute;
+    content: url("images/USA.png");
+    width: 45%;
+    height: auto;
+    margin-left: 130px;
+    top: 30px;
+    left: 70px;
+    margin-left: -3px;
+    -webkit-filter: drop-shadow(5px 5px 5px #222 );
+    filter: drop-shadow(5px 5px 5px #222);
+    z-index: 999999999999999999;
+  }
+
+  .CANADA {
+    content: url("images/canada.png");
+    position: absolute;
+    width: 60%;
+    height: auto;
+    margin-left: 130px;
+    top: 30px;
+    left: 500px;
+    -webkit-filter: drop-shadow(5px 5px 5px #222 );
+    filter: drop-shadow(5px 5px 5px #222);
+    z-index: 999999999;
+  }
+
+  .circle2019 {
+    position: absolute;
+    background-color:white;
+    border:3px solid black;
+    height:180px;
+    top: 30px;
+    left: 1110px;
+    border-radius:60%;
+    -moz-border-radius:60%;
+    -webkit-border-radius:60%;
+    width:180px;
+    font-family: 'BaseMonoItalic';
+    font-size: 75px;
+    background: white;
+    text-align: center;
+}
+
+    #video1{
+        position: absolute;
+        top: 510px;
+        left: 705px;
+        min-width: 13%;
+        min-height: 13%;
+        width: 13%;
+        height: auto;
+        z-index: 0;
+        }
+
+    #video2{
+        position: absolute;
+        top: 275px;
+        left: 770px;
+        min-width: 18%;
+        min-height: 18%;
+        width: 18%;
+        height: auto;
+        z-index: 99999999;
+        }
+
+        #video3{
+            position: absolute;
+            top: 130px;
+            left: 180px;
+            min-width: 20%;
+            min-height: 20%;
+            width: 20%;
+            height: auto;
+            z-index: 0;
+            }
+
+
+.National {
+    position: fixed;
+    font-family: 'BaseMonoItalic';
+    display: block;
+    top: 680px;
+    left: 60px;
+    font-size: 45px;
+    width: 50%;
+    z-index: 1; }
+
+    .TOP {
+        position: fixed;
+        font-family: 'BaseMonoItalic';
+        display: block;
+        top: 520px;
+        left: 50px;
+        font-size: 65px;
+        width: 50%;
+        z-index: 99999999999999999; }
+
+.IntroUSA {
+  position: fixed;
+  top: 100px;
+  left: 40px;
+  font-size: 20px;
+  font-family: 'BaseMonoItalic';
+  color: black;
+  z-index: 99999999999999999;	}
+
+  .IntroUK {
+    position: fixed;
+    top: 760px;
+    left: 680px;
+    font-size: 20px;
+    font-family: 'BaseMonoItalic';
+    color: black;
+    z-index: 99999999999999999;	}
+
+    .IntroCANADA {
+      position: fixed;
+      top: 620px;
+      left: 1255px;
+      font-size: 20px;
+      font-family: 'BaseMonoItalic';
+      color: black;
+      transform: rotate(90deg);
+      z-index: 99999999999999999; }
